@@ -1,0 +1,110 @@
+/* DEFINE FONTS */
+@font-face {
+  font-family: roboto-regular;
+  src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  font-family: 'roboto-bold';
+}
+
+p {
+  font-family: 'roboto-regular';
+}
+
+
+/* MOBILE STYLE */
+@media (max-width: 375px) {
+  /* CONTAINER STYLE */
+  /*.container-style {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px;
+  }*/
+  
+/*  .info-form {
+    width: 100%;
+    padding: 0px 1rem;
+  }
+
+  /* DISPLAY NONE TO DESKTOP IMAGE */
+  .desktop-image {
+    display: none;
+  }
+
+  /* TITLE STYLE */
+  .title {
+    font-size: 40px;
+    margin: 2rem 0px;
+    font-family: 'roboto-bold';
+  }
+
+  /* IMAGES STYLE */
+  .images {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    padding: 0px;
+  }
+  .mobile-image {
+    width: 100%;
+  }
+
+  /* LIST STYLE */
+  .list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  .last {
+    margin-bottom: 2rem;
+  }
+  .list-logo {
+    width: 21px;
+    margin-right: 1rem;
+  }
+  .list-text {
+    margin: 0px;
+  }
+
+  /* FORM STYLE */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-label {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .form-input {
+    padding: 0px 1rem;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid hsl(231, 7%, 60%);
+  }
+  .form-input:focus {
+    border: none;
+  }
+  .form-button {
+    margin: 1.5rem 0px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'roboto-bold';
+  }
+*/
+}
